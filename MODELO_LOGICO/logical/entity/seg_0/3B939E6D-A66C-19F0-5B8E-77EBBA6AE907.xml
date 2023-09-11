@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B939E6D-A66C-19F0-5B8E-77EBBA6AE907" name="FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:05:51 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="0A0D62C0-5FD0-43A2-FA5F-3DD4B24E1E6E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="B70B078B-8CB5-2268-4243-CD2581DC9A20">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:06:16 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="0A0D62C0-5FD0-43A2-FA5F-3DD4B24E1E6E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOME" id="42B5374F-887B-317D-9CFF-483D1604830C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:07:05 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="0A0D62C0-5FD0-43A2-FA5F-3DD4B24E1E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CARGO" id="50EF089F-EBBE-A340-5FFC-B47430E15182">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:07:28 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="0A0D62C0-5FD0-43A2-FA5F-3DD4B24E1E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="D2B0183C-FB46-10DE-1CF6-C578EDB66657">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:07:48 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="0A0D62C0-5FD0-43A2-FA5F-3DD4B24E1E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100</dataTypePrecision>
+<ownDataTypeParameters>,100,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA DE CONTRATACAO" id="46BC4F0C-C917-F7C2-C00B-089765FC9BAE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:08:07 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="0A0D62C0-5FD0-43A2-FA5F-3DD4B24E1E6E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B57D0EAE-77F9-7F6F-C00B-FE3DB2807C11" name="FUNCIONARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:09:49 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="0A0D62C0-5FD0-43A2-FA5F-3DD4B24E1E6E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B70B078B-8CB5-2268-4243-CD2581DC9A20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
